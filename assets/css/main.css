@@ -1,0 +1,33 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	
+	color: whitesmoke;
+}
+
+header, section{
+	padding: 4% 0;
+	background-color: rgba(187, 212, 208, 0.8);
+}
+
+button{
+	background-color: rgba(150, 208, 212, .9);
+	color: black;
+	border: none;
+}
+
+button:hover{
+	background-color: rgb(150, 208, 212);
+	border: none;
+}
+
+label, span, p{
+	color: black
+}
+
+span{
+	display: block;
+}
