@@ -3,14 +3,19 @@
 	margin: 0;
 }
 
-body{
-	
-	color: whitesmoke;
+body{                    
+	height: 700px;       
+	width: 100%;
+	background-size:cover;
 }
 
 header, section{
-	padding: 4% 0;
-	background-color: rgba(187, 212, 208, 0.8);
+	padding: 4% ;
+	;
+}
+
+#ingresar{
+	font-weight: 900;
 }
 
 button{
@@ -24,10 +29,6 @@ button:hover{
 	border: none;
 }
 
-label, span, p{
-	color: black
-}
 
-span{
-	display: block;
-}
+
+
