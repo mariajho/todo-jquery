@@ -5,7 +5,7 @@
 
 body{    
 	background-image: url(../img/oscurop.jpg);                
-	height: 700px;       
+	height: 900px;       
 	width: 100%;
 	background-size:cover;
 }
@@ -21,11 +21,13 @@ button{
 	border: none;
 	border-radius: 5%;
 	padding: 1%;
+	margin-top: 2%;
 }
 
 button:hover{
 	background-color: rgb(150, 208, 212);
 	border: none;
+	
 }
 
 #tarea{
@@ -35,18 +37,26 @@ button:hover{
 }
 
 h4{
+	background: rgba(150, 208, 212, .1);
 	color: white;
 	font-size: 40px;
+	padding: 10px;
+	border-radius: 7px;
 }
 
 h5{
+	background: rgba(150, 208, 212, 0.1);
 	color: white;
-	padding-bottom: 10px;
-	margin-right: 10px;
+	padding: 10px;
+	border-radius: 7px;
+
+
 }
 
 #checkear{
 	color: white;
+
+
 }
 
 #completar{
