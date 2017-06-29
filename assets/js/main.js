@@ -6,7 +6,7 @@ $(document).ready(function(){
 			alert("Ingresa una tarea");	
 		}
 		else{
-			$("#completar").append("<div><span class='center-align'>"+'<br>' + datos + '<br>' + '<button>Remove</button>');	
+			$("#checkear").append("<div><span class='center-align'>"+'<br>' + datos + '<br>' + '<button>Remove</button>');	
 		}
 	});
 });

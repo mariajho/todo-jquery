@@ -36,12 +36,21 @@ button:hover{
 
 h4{
 	color: white;
+	font-size: 40px;
 }
 
 h5{
 	color: white;
 	padding-bottom: 10px;
 	margin-right: 10px;
+}
+
+#checkear{
+	color: white;
+}
+
+#completar{
+	color: white;
 }
 
 
