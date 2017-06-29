@@ -3,7 +3,8 @@
 	margin: 0;
 }
 
-body{                    
+body{    
+	background-image: url(../img/oscurop.jpg);                
 	height: 700px;       
 	width: 100%;
 	background-size:cover;
@@ -14,19 +15,33 @@ header, section{
 	;
 }
 
-#ingresar{
-	font-weight: 900;
-}
-
 button{
 	background-color: rgba(150, 208, 212, .9);
 	color: black;
 	border: none;
+	border-radius: 5%;
+	padding: 1%;
 }
 
 button:hover{
 	background-color: rgb(150, 208, 212);
 	border: none;
+}
+
+#tarea{
+	font-weight: bold;
+	font-size: 15px;
+	color: white;
+}
+
+h4{
+	color: white;
+}
+
+h5{
+	color: white;
+	padding-bottom: 10px;
+	margin-right: 10px;
 }
 
 
