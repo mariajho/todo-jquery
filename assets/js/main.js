@@ -6,7 +6,7 @@ $(document).ready(function(){
 			alert("Ingresa una tarea");	
 		}
 		else{
-			$("#checkear").append("<div><span class='center-align'>"+ '<br>' + '<span class="glyphicon glyphicon-unchecked"></span>' + '<br>' + datos + '<br>' + '<button id="botoncito">Remove</button>');	
+			$("#checkear").append("<div><span class='center-align'>"+ '<br>' + '<input type="checkbox" id="test5" /><label for="test5"></label>' + '<br>' + datos + '<br>' + '<button id="botoncito">Remove</button>');	
 		}
 	});
 });
